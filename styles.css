@@ -1,0 +1,73 @@
+@font-face {
+  font-family: anotherDangerSlanted;
+  src: url(/HorrorHouse/assets/Another\ Danger\ Slanted\ -\ Demo.otf);
+}
+
+body {
+  background-color: black;
+}
+
+/************* 
+***NAVBAR***
+*********** */
+
+.navbar-dark {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  font-family: anotherDangerSlanted;
+  color: red !important;
+  font-size: 50px;
+  letter-spacing: 1.5px;
+}
+
+#nav-over {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: red !important;
+  font-size: 25px;
+  text-decoration: none;
+  letter-spacing: 3px !important;
+  font-family: anotherDangerSlanted;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.navLink:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  border-color: rgb(0, 0, 0);
+  color: red !important;
+}
+
+/********************** 
+***HORROR RESULTS***
+******************** */
+#inp-horror-title {
+  margin-top: 200px;
+}
+
+#btn-horror-title {
+  margin-top: 200px;
+}
+
+#horror-results {
+  padding: 0;
+  padding-top: 200px;
+  color: red;
+}
