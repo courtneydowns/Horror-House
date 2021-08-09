@@ -1,6 +1,6 @@
 @font-face {
   font-family: anotherDangerSlanted;
-  src: url(/HorrorHouse/assets/Another\ Danger\ Slanted\ -\ Demo.otf);
+  src: url(./assets/Another\ Danger\ Slanted\ -\ Demo.otf);
 }
 
 body {
@@ -29,9 +29,9 @@ body {
   letter-spacing: 1.5px;
 }
 
-#nav-over {
-  margin-left: auto;
-}
+/* #nav-over {
+  margin-left: auto !important;
+} */
 
 .nav-link {
   color: red !important;
