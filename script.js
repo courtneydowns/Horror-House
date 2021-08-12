@@ -78,12 +78,12 @@ function getHorrorMoviesByTitle() {
   }
 }
 
+let currentHorrorMoviePage = 0;
 function horrorMovieDatabase() {
-  const searchWordsDatabase = inpHorrorTitle.value.trim().replace(/\s/, "+");
-
+  // const searchWordsDatabase = inpHorrorTitle.value.trim().replace(/\s/, "+");
+  currentHorrorMoviePage = currentHorrorMoviePage + 1;
   fetch(
-    // `https://api.themoviedb.org/3/search/movie?api_key=10290d885ea485489931ec4bd8364b33&query=${searchWordsDatabase}&with_genres=27`
-    "https://api.themoviedb.org/3/movie?api_key=10290d885ea485489931ec4bd8364b33=&with_27"
+    `https://api.themoviedb.org/3/discover/movie?api_key=f6c2597101b3b0f8d6fcff87b23eaea3&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=27&with_original_language=en&page=${currentHorrorMoviePage}`
   )
     .then((result) => result.json())
     .then((json) => {
