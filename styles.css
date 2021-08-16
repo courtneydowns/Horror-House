@@ -7,10 +7,8 @@ body {
   background-color: black;
 }
 
-.display-box {
-  height: 75vh;
-  width: 25rem;
-  overflow: scroll;
+.card {
+  margin-top: 50rem;
 }
 
 /************* 
@@ -66,6 +64,7 @@ li {
   display: block;
   margin: auto;
   margin-top: 5rem;
+  /* margin-bottom: 3rem; */
 }
 
 #btn-horror-title {
@@ -73,27 +72,28 @@ li {
   margin-left: 66.5rem;
   background-color: gray;
   margin-top: -1.87rem;
+  margin-bottom: 5rem;
   height: 2rem;
 }
 
-#horror-title-results {
+/* #horror-title-results {
   align-items: center;
   align-content: center;
   text-align: center;
   padding-top: 100px;
   color: red;
-}
+} */
 
 /**************************** 
 ***HORROR DATABASE RESULTS***
 ****************************/
 
-#horror-movie-database {
+/* #horror-movie-database {
   margin-top: 200px;
   align-items: center;
   align-content: center;
-  /* color: red !important; */
-}
+  color: red !important;
+} */
 
 /* .align-left {
   display: flex;
@@ -101,11 +101,11 @@ li {
   justify-content: center;
 } */
 
-/* #btn-horror-database {
-  position: fixed;
-  top: 5px;
-  left: 2px;
-} */
+#button-parent {
+  justify-content: center;
+  display: flex;
+  margin-top: 5rem;
+}
 
 #horror-database-results {
   list-style: none;
